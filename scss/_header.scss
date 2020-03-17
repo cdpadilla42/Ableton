@@ -1,0 +1,21 @@
+// Header and Nav
+
+.header {
+  height: 78px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 108px 1fr;
+  grid-template-rows: 48px;
+
+  .nav-flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+
+    li {
+      display: inline;
+      padding: 0 1rem;
+    }
+  }
+}
