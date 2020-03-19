@@ -88,9 +88,9 @@
 .grid, .grid_4_max, .grid_3_max {
   display: -ms-grid;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 2rem;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 .grid_4_max {
@@ -99,8 +99,8 @@
 }
 
 .grid_3_max {
-  -ms-grid-columns: (minmax(336px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 @media all and (max-width: 768px) {
@@ -137,6 +137,35 @@
   padding: 0 1rem;
 }
 
+.article_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.article_card .image {
+  width: 100%;
+  background: url("https://images.squarespace-cdn.com/content/v1/5d62f11eb1fb2f000196aba7/1570201530617-0E5M0HX0UGVZUJQEIZ8I/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/QL9A5874.jpg?format=750w");
+  background-size: cover;
+  padding-top: 50%;
+  margin-bottom: 5px;
+  background-position: 50%;
+}
+
+.article_card .article__details .article__header {
+  font-weight: 700;
+}
+
+.article_card .article__details .article__sub_heading {
+  color: grey;
+}
+
 html,
 body,
 div,
@@ -144,12 +173,6 @@ span,
 applet,
 object,
 iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
 blockquote,
 pre,
@@ -223,6 +246,18 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
+  vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
   vertical-align: baseline;
 }
 

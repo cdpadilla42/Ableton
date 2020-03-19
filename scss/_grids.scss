@@ -2,9 +2,9 @@
 
 .grid {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 2rem;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 2rem auto;
 
   &_4_max {
     @extend .grid;
@@ -13,7 +13,7 @@
 
   &_3_max {
     @extend .grid;
-    grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     @media all and (max-width: 768px) {
       .categories_grid {
         grid-template-columns: 1fr;

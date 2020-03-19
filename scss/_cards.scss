@@ -1,0 +1,26 @@
+// Article Card
+.article_card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-bottom: 1rem;
+
+  .image {
+    width: 100%;
+    background: url('https://images.squarespace-cdn.com/content/v1/5d62f11eb1fb2f000196aba7/1570201530617-0E5M0HX0UGVZUJQEIZ8I/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/QL9A5874.jpg?format=750w');
+    background-size: cover;
+    padding-top: 50%;
+    margin-bottom: 5px;
+    background-position: 50%;
+  }
+
+  .article__details {
+    .article__header {
+      font-weight: 700;
+    }
+
+    .article__sub_heading {
+      color: grey;
+    }
+  }
+}
