@@ -4,8 +4,9 @@
   height: 78px;
   display: grid;
   width: 100%;
-  grid-template-columns: 108px 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: 48px;
+  align-items: center;
 
   .nav-flex {
     display: flex;
