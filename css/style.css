@@ -325,6 +325,7 @@ html {
 
 body {
   background-color: wheat;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ::-moz-selection {
@@ -341,12 +342,23 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  height: 30px;
-  margin-bottom: 1rem;
+  height: auto;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  line-height: 1.2;
+  padding-bottom: 0.5rem;
+}
+
+.albeton_latest .lead_title {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  width: 400px;
 }
 
 .albeton_latest li {
   color: blue;
+  font-size: 1.2rem;
 }
 
 .article_card .image {

@@ -7,6 +7,7 @@
 
 body {
   background-color: wheat;
+  font-family: $font-stack;
 }
 
 ::selection {
@@ -22,17 +23,28 @@ body {
 
 .albeton_latest {
   justify-content: flex-end;
-  height: 30px;
-  margin-bottom: 1rem;
+  height: auto;
+  align-items: flex-end;
+  line-height: 1.2;
+  padding-bottom: 0.5rem;
+
+  .lead_title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    width: 400px;
+  }
 
   li {
     color: blue;
+    font-size: 1.2rem;
   }
 }
 
-.article_card .image {
-  background: url('../assets/thumb_BL_ApersonalTake_800x400_7KElhxm.jpg.600x340_q85_crop_upscale.jpg');
-  background-size: cover;
+.article_card {
+  .image {
+    background: url('../assets/thumb_BL_ApersonalTake_800x400_7KElhxm.jpg.600x340_q85_crop_upscale.jpg');
+    background-size: cover;
+  }
 }
 
 @import 'buttons';
