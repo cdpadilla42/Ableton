@@ -22,21 +22,25 @@ body {
 }
 
 .albeton_latest {
-  justify-content: flex-end;
   height: auto;
-  align-items: flex-end;
-  line-height: 1.2;
-  padding-bottom: 0.5rem;
+  justify-content: flex-end;
+  align-items: end;
+  padding-bottom: 2.5rem;
 
   .lead_title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.2;
-    width: 400px;
+    width: 350px;
   }
 
-  li {
-    color: blue;
-    font-size: 1.2rem;
+  .albeton_latest_heading {
+    line-height: 1.2;
+    padding-bottom: 0.25rem;
+
+    li {
+      color: blue;
+      font-size: 1.2rem;
+    }
   }
 }
 
