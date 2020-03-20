@@ -30,4 +30,9 @@ body {
   }
 }
 
+.article_card .image {
+  background: url('../assets/thumb_BL_ApersonalTake_800x400_7KElhxm.jpg.600x340_q85_crop_upscale.jpg');
+  background-size: cover;
+}
+
 @import 'buttons';
