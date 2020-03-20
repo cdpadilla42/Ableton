@@ -9,6 +9,11 @@ body {
   background-color: wheat;
 }
 
+::selection {
+  color: white;
+  background-color: blue;
+}
+
 .logo {
   // background: url('../assets/pngguru.com.png');
   // background-position: center;
@@ -17,6 +22,12 @@ body {
 
 .albeton_latest {
   justify-content: flex-end;
+  height: 30px;
+  margin-bottom: 1rem;
+
+  li {
+    color: blue;
+  }
 }
 
 @import 'buttons';

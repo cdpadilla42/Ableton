@@ -327,10 +327,26 @@ body {
   background-color: wheat;
 }
 
+::-moz-selection {
+  color: white;
+  background-color: blue;
+}
+
+::selection {
+  color: white;
+  background-color: blue;
+}
+
 .albeton_latest {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  height: 30px;
+  margin-bottom: 1rem;
+}
+
+.albeton_latest li {
+  color: blue;
 }
 
 .btn-primary, .btn-secondary {
