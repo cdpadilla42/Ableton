@@ -49,6 +49,26 @@ body {
     background: url('../assets/thumb_BL_ApersonalTake_800x400_7KElhxm.jpg.600x340_q85_crop_upscale.jpg');
     background-size: cover;
   }
+
+  .article__details {
+    .article_header {
+      font-size: 0.75rem;
+      margin-bottom: 0.2rem;
+      line-height: 1.5;
+    }
+
+    .category_loop {
+      color: #6dcbff;
+    }
+
+    .category_artist {
+      color: #fed134;
+    }
+
+    .category_downloads {
+      color: #ff764d;
+    }
+  }
 }
 
 @import 'buttons';

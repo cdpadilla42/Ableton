@@ -370,6 +370,24 @@ body {
   background-size: cover;
 }
 
+.article_card .article__details .article_header {
+  font-size: 0.75rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.5;
+}
+
+.article_card .article__details .category_loop {
+  color: #6dcbff;
+}
+
+.article_card .article__details .category_artist {
+  color: #fed134;
+}
+
+.article_card .article__details .category_downloads {
+  color: #ff764d;
+}
+
 .btn-primary, .btn-secondary {
   display: inline-block;
   border-radius: 5px;
