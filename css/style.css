@@ -355,14 +355,18 @@ body {
   width: 350px;
 }
 
-.albeton_latest .albeton_latest_heading {
+.albeton_latest .albeton_latest_heading.nav-flex {
   line-height: 1.2;
   padding-bottom: 0.25rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.albeton_latest .albeton_latest_heading li {
+.albeton_latest .albeton_latest_heading.nav-flex li {
   color: blue;
   font-size: 1.2rem;
+  padding: 0 0.5rem;
 }
 
 .article_card .image {
@@ -374,10 +378,11 @@ body {
   font-size: 0.75rem;
   margin-bottom: 0.2rem;
   line-height: 1.5;
+  font-weight: 400;
 }
 
 .article_card .article__details .article_title {
-  font-size: 1.25rem;
+  font-size: 0.875rem;
   line-height: 1.5;
 }
 

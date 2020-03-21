@@ -33,13 +33,15 @@ body {
     width: 350px;
   }
 
-  .albeton_latest_heading {
+  .albeton_latest_heading.nav-flex {
     line-height: 1.2;
     padding-bottom: 0.25rem;
+    justify-content: flex-end;
 
     li {
       color: blue;
       font-size: 1.2rem;
+      padding: 0 0.5rem;
     }
   }
 }
@@ -55,10 +57,11 @@ body {
       font-size: 0.75rem;
       margin-bottom: 0.2rem;
       line-height: 1.5;
+      font-weight: 400;
     }
 
     .article_title {
-      font-size: 1.25rem;
+      font-size: 0.875rem;
       line-height: 1.5;
     }
 
