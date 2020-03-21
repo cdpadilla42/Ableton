@@ -376,6 +376,11 @@ body {
   line-height: 1.5;
 }
 
+.article_card .article__details .article_title {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
 .article_card .article__details .category_loop {
   color: #6dcbff;
 }
