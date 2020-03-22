@@ -92,4 +92,40 @@ body {
   }
 }
 
+.more_categories__wrap {
+  display: flex;
+  background-color: grey;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+
+  ul {
+    flex: 1;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      flex-basis: auto;
+      padding: 0.3rem;
+      color: blue;
+      font-size: 1.2rem;
+
+      @media all and (max-width: 700px) {
+        font-size: 0.9rem;
+      }
+      @media all and (max-width: 1300px) {
+        font-size: 1rem;
+      }
+    }
+
+    .plane_text {
+      color: black;
+    }
+  }
+}
+
 @import 'buttons';
