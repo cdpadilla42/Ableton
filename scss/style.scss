@@ -43,6 +43,19 @@ body {
       font-size: 1.2rem;
       padding: 0 0.5rem;
     }
+
+    .ableton_latest__hamburger {
+      display: none;
+    }
+
+    @media all and (max-width: 970px) {
+      li {
+        display: none;
+      }
+      .ableton_latest__hamburger {
+        display: inline;
+      }
+    }
   }
 }
 

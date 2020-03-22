@@ -369,6 +369,19 @@ body {
   padding: 0 0.5rem;
 }
 
+.albeton_latest .albeton_latest_heading.nav-flex .ableton_latest__hamburger {
+  display: none;
+}
+
+@media all and (max-width: 970px) {
+  .albeton_latest .albeton_latest_heading.nav-flex li {
+    display: none;
+  }
+  .albeton_latest .albeton_latest_heading.nav-flex .ableton_latest__hamburger {
+    display: inline;
+  }
+}
+
 .article_card .image {
   background: url("../assets/thumb_BL_ApersonalTake_800x400_7KElhxm.jpg.600x340_q85_crop_upscale.jpg");
   background-size: cover;
