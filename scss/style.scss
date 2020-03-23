@@ -142,6 +142,10 @@ body {
 
     @media all and (max-width: 1020px) {
       grid-template-columns: 1fr;
+
+      .newsletter_signup {
+        order: -1;
+      }
     }
   }
 }
