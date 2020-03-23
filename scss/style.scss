@@ -133,6 +133,8 @@ body {
 
   .footer__title {
     color: blue;
+    margin: 0 auto;
+    padding: 5rem 0 3rem 2rem;
   }
 
   .footer__grid {
@@ -145,6 +147,27 @@ body {
 
       .newsletter_signup {
         order: -1;
+      }
+    }
+  }
+
+  .newsletter_signup {
+    .email_flex {
+      display: flex;
+      width: 100%;
+      .email {
+        flex: 1;
+        border: none;
+        background: #eee;
+        padding: 0.4rem 0.75rem;
+        border-radius: 0;
+      }
+
+      .submit {
+        flex-basis: 100px;
+        border: none;
+        background-color: blue;
+        color: white;
       }
     }
   }
