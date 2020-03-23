@@ -94,8 +94,8 @@ body {
 
 .more_categories__wrap {
   display: flex;
-  background-color: grey;
-  height: 100px;
+  background-color: #eee;
+  height: 130px;
   width: 100%;
   align-items: center;
 
@@ -124,6 +124,24 @@ body {
 
     .plane_text {
       color: black;
+    }
+  }
+}
+
+.footer__wrap {
+  width: 100%;
+
+  .footer__title {
+    color: blue;
+  }
+
+  .footer__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    margin: 0 2rem;
+
+    @media all and (max-width: 1020px) {
+      grid-template-columns: 1fr;
     }
   }
 }
