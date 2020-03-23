@@ -522,6 +522,19 @@ body {
   color: white;
 }
 
+.footer__wrap .footer__section {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.footer__wrap .footer__section * {
+  margin: 0.5rem 0;
+}
+
+.footer__wrap .footer__section .section__header {
+  font-size: 0.9rem;
+}
+
 .btn-primary, .btn-secondary {
   display: inline-block;
   border-radius: 5px;

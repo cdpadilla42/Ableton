@@ -171,6 +171,19 @@ body {
       }
     }
   }
+
+  .footer__section {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+
+    * {
+      margin: 0.5rem 0;
+    }
+
+    .section__header {
+      font-size: 0.9rem;
+    }
+  }
 }
 
 @import 'buttons';
