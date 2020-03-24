@@ -188,12 +188,22 @@ body {
   .footer__nav_links {
     grid-column: 1 / span 3;
 
-    li {
-      display: inline;
-      font-size: 0.9rem;
-      line-height: 1.5rem;
-      font-weight: 700;
-      padding-right: 0.3rem;
+    ul {
+      display: flex;
+      width: 100%;
+      li {
+        flex-basis: auto;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        font-weight: 700;
+        padding-right: 0.3rem;
+      }
+
+      .right {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+      }
     }
 
     @media all and (max-width: 1020px) {
