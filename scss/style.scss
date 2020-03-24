@@ -184,6 +184,26 @@ body {
       font-size: 0.9rem;
     }
   }
+
+  .footer__nav_links {
+    grid-column: 1 / span 3;
+
+    li {
+      display: inline;
+      font-size: 0.9rem;
+      line-height: 1.5rem;
+      font-weight: 700;
+      padding-right: 0.3rem;
+    }
+
+    @media all and (max-width: 1020px) {
+      grid-column: 1 / 2;
+
+      li {
+        display: block;
+      }
+    }
+  }
 }
 
 @import 'buttons';

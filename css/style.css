@@ -535,6 +535,31 @@ body {
   font-size: 0.9rem;
 }
 
+.footer__wrap .footer__nav_links {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / span 3;
+}
+
+.footer__wrap .footer__nav_links li {
+  display: inline;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  padding-right: 0.3rem;
+}
+
+@media all and (max-width: 1020px) {
+  .footer__wrap .footer__nav_links {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+  }
+  .footer__wrap .footer__nav_links li {
+    display: block;
+  }
+}
+
 .btn-primary, .btn-secondary {
   display: inline-block;
   border-radius: 5px;
