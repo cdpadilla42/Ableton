@@ -143,6 +143,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
     margin: 0 2rem;
+    grid-gap: 2rem;
 
     @media all and (max-width: 1020px) {
       grid-template-columns: 1fr;
@@ -205,6 +206,14 @@ body {
         flex: 1;
         display: flex;
         justify-content: flex-end;
+      }
+
+      @media all and (max-width: 1020px) {
+        flex-direction: column;
+
+        .right {
+          justify-content: flex-start;
+        }
       }
     }
 
