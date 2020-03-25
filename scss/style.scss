@@ -27,6 +27,27 @@ body {
   @media all and (max-width: 700px) {
     height: auto;
   }
+
+  h1,
+  h2 {
+    padding: 0 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+
+    span {
+      text-decoration: underline;
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2,
+  .link {
+    font-size: 1rem;
+  }
+
   .flex-wrap {
     display: flex;
     width: 100vw;
@@ -34,16 +55,18 @@ body {
   }
 
   .main {
-    background: red;
+    background: purple;
     flex-basis: 60vw;
     height: 40vw;
+    color: #ff5157;
   }
 
   .secondary {
     flex: 1;
     position: relative;
+    color: #00ffaf;
     .shrink {
-      background-color: cornflowerblue;
+      background-color: blue;
       width: 80%;
       height: 50%;
       position: absolute;
@@ -53,6 +76,7 @@ body {
   }
   .third {
     background-color: goldenrod;
+    color: yellow;
     width: 30%;
     height: 30%;
     position: absolute;
