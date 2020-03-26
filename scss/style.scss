@@ -10,6 +10,12 @@ body {
   font-family: $font-stack;
 }
 
+@media all and (max-width: 1025px) {
+  .header {
+    display: none;
+  }
+}
+
 ::selection {
   color: white;
   background-color: blue;
@@ -91,7 +97,7 @@ body {
   }
 
   @media all and (max-width: 700px) {
-    height: auto;
+    height: 175vw;
 
     .flex-wrap {
       flex-direction: column;
@@ -107,6 +113,8 @@ body {
     }
 
     .third {
+      width: 80%;
+      left: 0;
     }
   }
 }

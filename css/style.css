@@ -328,6 +328,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@media all and (max-width: 1025px) {
+  .header {
+    display: none;
+  }
+}
+
 ::-moz-selection {
   color: white;
   background-color: blue;
@@ -418,7 +424,7 @@ body {
 
 @media all and (max-width: 700px) {
   .home_articles__wrap {
-    height: auto;
+    height: 175vw;
   }
   .home_articles__wrap .flex-wrap {
     -webkit-box-orient: vertical;
@@ -431,6 +437,10 @@ body {
     height: auto;
     padding-bottom: 50%;
     top: 10px;
+  }
+  .home_articles__wrap .third {
+    width: 80%;
+    left: 0;
   }
 }
 
