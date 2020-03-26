@@ -26,9 +26,6 @@ body {
   height: 57vw;
   position: relative;
   margin-bottom: 4rem;
-  @media all and (max-width: 700px) {
-    height: auto;
-  }
 
   h1,
   h2 {
@@ -57,7 +54,9 @@ body {
   }
 
   .main {
-    background: purple;
+    background: url('../assets/QL9A8992.jpg');
+    background-size: cover;
+    background-position: center;
     flex-basis: 60vw;
     height: 40vw;
     color: #ff5157;
@@ -65,10 +64,12 @@ body {
 
   .secondary {
     flex: 1;
-    color: #00ffaf;
+    color: yellow;
     position: relative;
     .shrink {
-      background-color: blue;
+      background: url('../assets/QL9A1456.jpg');
+      background-size: cover;
+      background-position: center;
       width: 80%;
       height: 50%;
       position: absolute;
@@ -77,13 +78,36 @@ body {
     }
   }
   .third {
-    background-color: goldenrod;
-    color: yellow;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0)),
+      url('../assets/QL9A9169.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ff5157;
     width: 30%;
     height: 40%;
     position: absolute;
     bottom: 0;
     left: 45%;
+  }
+
+  @media all and (max-width: 700px) {
+    height: auto;
+
+    .flex-wrap {
+      flex-direction: column;
+      height: auto;
+
+      .secondary {
+        .shrink {
+          height: auto;
+          padding-bottom: 50%;
+          top: 10px;
+        }
+      }
+    }
+
+    .third {
+    }
   }
 }
 
