@@ -19,7 +19,7 @@ and cards that fit inside the grid to display article header and text.
 
 ## Demo Link
 
-[View app in browser](https://cdpadilla42.github.io/ableton/)
+[View app in browser](https://cdpadilla42.github.io/Ableton/)
 
 [Original Site](https://www.ableton.com/en/)
 
