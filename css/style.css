@@ -324,13 +324,19 @@ html {
 }
 
 body {
-  background-color: wheat;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.menu {
+  display: none;
+}
+
 @media all and (max-width: 1025px) {
-  .header {
+  .header .nav-flex li {
     display: none;
+  }
+  .header .nav-flex .menu {
+    display: inline;
   }
 }
 
@@ -490,6 +496,12 @@ body {
   }
   .albeton_latest .albeton_latest_heading.nav-flex .ableton_latest__hamburger {
     display: inline;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .albeton_latest .albeton_latest_heading.nav-flex .ableton_latest__hamburger {
+    display: none;
   }
 }
 

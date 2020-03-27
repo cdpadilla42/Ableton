@@ -6,13 +6,25 @@
 @import 'reset';
 
 body {
-  background-color: wheat;
+  // background-color: wheat;
   font-family: $font-stack;
+}
+
+.menu {
+  display: none;
 }
 
 @media all and (max-width: 1025px) {
   .header {
-    display: none;
+    .nav-flex {
+      li {
+        display: none;
+      }
+
+      .menu {
+        display: inline;
+      }
+    }
   }
 }
 
@@ -154,6 +166,11 @@ body {
       }
       .ableton_latest__hamburger {
         display: inline;
+      }
+    }
+    @media all and (max-width: 700px) {
+      .ableton_latest__hamburger {
+        display: none;
       }
     }
   }
