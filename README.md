@@ -8,9 +8,10 @@ I wanted to create the same postcard on a desk feeling while
 still allowing for responsive design elements.
 
 Tech used:
--Sass
--CSS Grid
--Flexbox
+
+- Sass
+- CSS Grid
+- Flexbox
 
 My aim in using Sass with this project was to start building partials
 that would contribute to a personal, reusable css framework. My main
